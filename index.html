@@ -1,0 +1,1504 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>TLA2024 | Conference and Presentation</title>
+
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="TLA2024 - National Academic Conference and Presentation">
+  <meta name="keywords"
+    content="TLA2024, TLA, Conference, Presentation, Academic, Special Lecture, Discussion, Walailak University, library, Srinakharinwirot University, Thai Library Association, TLA Research Journal, Thailand, Research, Library Management, Library Innovation and Technology, Information Behavior, Knowledge Management, Wisdom and Integration, Information management">
+  <meta name="author" content="IICE, TLA">
+
+  <!-- Viewport -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Favicon and Touch Icons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+  <link rel="manifest" href="assets/favicon/site.webmanifest">
+  <link rel="mask-icon" href="assets/favicon/safari-pinned-tab.svg" color="#6366f1">
+  <link rel="shortcut icon" href="assets/favicon/favicon.ico">
+  <meta name="msapplication-TileColor" content="#080032">
+  <meta name="msapplication-config" content="assets/favicon/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- Vendor Styles -->
+  <link rel="stylesheet" media="screen" href="assets/vendor/boxicons/css/boxicons.min.css" />
+  <link rel="stylesheet" media="screen" href="assets/vendor/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" media="screen" href="assets/vendor/lightgallery.js/dist/css/lightgallery.min.css" />
+
+  <!-- Main Theme Styles + Bootstrap -->
+  <link rel="stylesheet" media="screen" href="assets/css/theme.min.css">
+
+  <!-- lottie files -->
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+
+  
+
+  <!-- Page loading styles -->
+  <style>
+    .page-loading {
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      -webkit-transition: all .4s .2s ease-in-out;
+      transition: all .4s .2s ease-in-out;
+      background-color: #fff;
+      opacity: 0;
+      visibility: hidden;
+      z-index: 9999;
+    }
+
+    .dark-mode .page-loading {
+      background-color: #131022;
+    }
+
+    .page-loading.active {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .page-loading-inner {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      width: 100%;
+      text-align: center;
+      -webkit-transform: translateY(-50%);
+      transform: translateY(-50%);
+      -webkit-transition: opacity .2s ease-in-out;
+      transition: opacity .2s ease-in-out;
+      opacity: 0;
+    }
+
+    .page-loading.active>.page-loading-inner {
+      opacity: 1;
+    }
+
+    .page-loading-inner>span {
+      display: block;
+      font-size: 1rem;
+      font-weight: normal;
+      color: #9397ad;
+    }
+
+    .dark-mode .page-loading-inner>span {
+      color: #fff;
+      opacity: .6;
+    }
+
+    .page-spinner {
+      display: inline-block;
+      width: 2.75rem;
+      height: 2.75rem;
+      margin-bottom: .75rem;
+      vertical-align: text-bottom;
+      border: .15em solid #b4b7c9;
+      border-right-color: transparent;
+      border-radius: 50%;
+      -webkit-animation: spinner .75s linear infinite;
+      animation: spinner .75s linear infinite;
+    }
+
+    .dark-mode .page-spinner {
+      border-color: rgba(255, 255, 255, .4);
+      border-right-color: transparent;
+    }
+
+    @-webkit-keyframes spinner {
+      100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+      }
+    }
+
+    @keyframes spinner {
+      100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+      }
+    }
+
+    .custom-bg-1 {
+      background-color: #6366f1;
+      /* สีที่ 1 */
+    }
+
+    .custom-bg-4 {
+      background-color: #2b3a8b;
+      /* สีที่ 4 */
+    }
+
+    .custom-bg-2 {
+      background-color: #8B5CF6;
+      /* สีที่ 2 */
+    }
+
+    .custom-bg-3 {
+      background-color: #D946EF;
+      /* สีที่ 3 */
+    }
+
+    .custom-bg-5 {
+      background-color: #cb982b;
+      /* สีที่ 5 */
+    }
+
+    .custom-bg-6 {
+      background-color: #ee1818;
+      /* สีที่ 6 */
+    }
+
+    .custom-text-1 {
+      color: #2b3a8b;
+      /* สีที่ 1 */
+    }
+
+  </style>
+
+  <!-- Theme mode -->
+  <script>
+    let mode = window.localStorage.getItem('mode'),
+      root = document.getElementsByTagName('html')[0];
+    if (mode !== undefined && mode === 'dark') {
+      root.classList.add('dark-mode');
+    } else {
+      root.classList.remove('dark-mode');
+    }
+  </script>
+
+  <!-- Page loading scripts -->
+  <script>
+    (function () {
+      window.onload = function () {
+        const preloader = document.querySelector('.page-loading');
+        preloader.classList.remove('active');
+        setTimeout(function () {
+          preloader.remove();
+        }, 1000);
+      };
+    })();
+  </script>
+</head>
+
+
+<!-- Body -->
+
+<body>
+
+  <!-- Page loading spinner -->
+  <div class="page-loading active">
+    <div class="page-loading-inner">
+      <div class="page-spinner"></div><span>Loading...</span>
+    </div>
+  </div>
+
+
+  <!-- Page wrapper for sticky footer -->
+  <!-- Wraps everything except footer to push footer to the bottom of the page if there is little content -->
+  <main class="page-wrapper">
+
+
+    <!-- Navbar -->
+    <!-- Remove "fixed-top" class to make navigation bar scrollable with the page -->
+    <header class="header navbar navbar-expand-lg navbar-light bg-light shadow-sm fixed-top">
+      <div class="container px-3">
+        <a href="index.html" class="navbar-brand pe-3">
+          <img src="assets/img/logo.svg" width="47" alt="Silicon">
+          TLA2024
+        </a>
+        <div id="navbarNav" class="offcanvas offcanvas-end">
+          <div class="offcanvas-header border-bottom">
+            <h5 class="offcanvas-title">Menu</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+            <li class="nav-item">
+              <a href="#conferenceformat" class="nav-link" data-scroll
+              data-scroll-offset="70">รูปแบบการประชุม</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#conferencedetail" class="nav-link" data-scroll
+              data-scroll-offset="70">รายละเอียดการประชุม</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#registrationfee" class="nav-link" data-scroll
+              data-scroll-offset="70">ค่าลงทะเบียน</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#schedule" class="nav-link" data-scroll
+              data-scroll-offset="70">กำหนดการ</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">ดาวน์โหลดเอกสาร</a>
+              <ul class="dropdown-menu">
+                <li><a href="https://tla.or.th/attachments/article/479/TLA_book_9%20Dec%202024.pdf" target="_blank" class="dropdown-item">หนังสือขอความร่วมมือหน่วยงาน</a></li>
+                <li><a href="https://tla.or.th/attachments/article/479/TLA_Conference_9%20Dec%202024.pdf" target="_blank" class="dropdown-item">คำสั่งคณะทำงานประชุมระดับชาติ</a></li>
+                <li><a href="https://tla.or.th/attachments/article/479/TLA_project_9%20Dec%202024.pdf" target="_blank" class="dropdown-item">รายละเอียดโครงการแผนกวิจัยประชุมวิชาการ</a></li>
+                <li><a href="https://tla.or.th/attachments/article/479/TLA_Schedule_9%20Dec%202024.pdf" target="_blank" class="dropdown-item">กำหนดการประชุมและนำเสนอบทความทางวิชาการระดับชาติ</a></li>
+
+              </ul>
+            </li>
+
+
+          </div>
+          <div class="offcanvas-footer border-top">
+            <a href="#" class="btn btn-primary w-100">
+              <i class="bx bx-cart fs-4 lh-1 me-1"></i>
+              &nbsp;Buy now
+            </a>
+          </div>
+        </div>
+        <div class="form-check form-switch mode-switch pe-lg-1 ms-auto me-4" data-bs-toggle="mode">
+          <input type="checkbox" class="form-check-input" id="theme-mode">
+          <label class="form-check-label d-none d-sm-block" for="theme-mode">Light</label>
+          <label class="form-check-label d-none d-sm-block" for="theme-mode">Dark</label>
+        </div>
+        <button type="button" class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a href="#" class="btn btn-primary btn-sm fs-sm rounded d-none d-lg-inline-flex">
+          <i class="bx bx-calendar-check fs-5 lh-1 me-1"></i>
+          &nbsp;Register
+        </a>
+      </div>
+    </header>
+
+
+
+    <!-- Video + Title split section -->
+    <section class="container-fluid position-relative px-0 pt-5 mt-3 mt-lg-4">
+      <div class="row g-0">
+        <div class="col-xl-7 col-lg-6 pe-lg-5">
+          <div class="d-flex h-100 pe-xl-4">
+            <video class="w-100" autoplay muted loop style="object-fit: cover;">
+              <source src="assets/img/landing/conference/Conference.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+        <div class="col-xl-5 col-lg-6 position-relative py-5">
+          <img src="assets/img/landing/conference/hero-bg.png"
+            class="position-absolute top-50 translate-middle-y ms-lg-n4" width="866" alt="Background shapes">
+          <div
+            class="position-relative zindex-5 text-center text-lg-start px-3 px-lg-0 py-xl-4 py-xxl-5 mt-lg-3 mx-auto mx-lg-0"
+            style="max-width: 530px;">
+            <h2 class="h3 text-primary">December 9, 2024</h2>
+            <h1 class="display-1 pb-lg-3 mb-1">TLA2024</h1>
+            <p class="fs-5 mb-2">การประชุมและนำเสนอบทความทางวิชาการระดับชาติ</p>
+            <h5 class="mb-4">เรื่อง การจัดการศึกษาและวิจัยทางบรรณารักษศาสตร์และสารสนเทศศาสตร์เพื่อการพัฒนาที่ยั่งยืน
+              ครั้งที่ 2</h5>
+            <div class="d-flex justify-content-center justify-content-lg-start text-start mb-2">
+              <i class="bx bx-map fs-4 text-primary me-2"></i>
+              <div class="fs-xl">ณ ห้องปรินซ์ บอลลูม 3 ชั้น 11 อาคาร 1<br>โรงแรมปรินซ์ พาเลซ มหานาค กรุงเทพมหานคร</div>
+            </div>
+            <div class="d-flex flex-column flex-sm-row justify-content-center justify-content-lg-start py-4 py-lg-5">
+              <a href="#" class="btn btn-primary shadow-primary btn-lg me-sm-3 me-xl-4 mb-3">
+                <i class="bx bx-calendar-check fs-xl me-2 ms-n1"></i>
+                Register</a>
+              <a href="#" class="btn btn-outline-primary btn-lg mb-3">
+                <i class="bx bx-calendar-plus fs-xl me-2 ms-n1"></i>
+                Add to calendar
+              </a>
+            </div>
+            <div
+              class="d-flex align-items-center justify-content-center justify-content-lg-start text-start pb-2 pt-lg-2 pb-xl-0 pt-xl-5 mt-xxl-5">
+              <div class="d-flex me-3">
+                <div class="d-flex align-items-center justify-content-center bg-white rounded-circle"
+                  style="width: 52px; height: 52px;">
+                  <img src="assets/img/avatar/08.jpg" class="rounded-circle" width="48" alt="Avatar">
+                </div>
+                <div class="d-flex align-items-center justify-content-center bg-white rounded-circle ms-n3"
+                  style="width: 52px; height: 52px;">
+                  <img src="assets/img/avatar/40.jpg" class="rounded-circle" width="48" alt="Avatar">
+                </div>
+                <div class="d-flex align-items-center justify-content-center bg-white rounded-circle ms-n3"
+                  style="width: 52px; height: 52px;">
+                  <img src="assets/img/avatar/09.jpg" class="rounded-circle" width="48" alt="Avatar">
+                </div>
+              </div>
+              <span class="fs-sm"><span class="text-primary fw-semibold">400+</span> attendees are already with
+                us</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="position-absolute d-none d-lg-block bottom-0 start-0 w-100 zindex-5 pb-xxl-5">
+        <div class="container pb-4 mb-3 mb-xxl-0">
+          <a href="#conferenceformat" class="d-table text-light opacity-80 text-decoration-none w-auto py-4" data-scroll
+            data-scroll-offset="70">
+            <span class="d-flex align-items-center">
+              Scroll for more
+              <i class="bx bx-down-arrow-circle fs-3 ms-2"></i>
+            </span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Sponsors -->
+    <section class="position-relative bg-dark py-5">
+      <div class="position-absolute top-0 start-0 w-100 h-100" style="background-color: rgba(255,255,255,.05);"></div>
+      <div class="container position-relative zindex-5 pt-1 pt-md-2 pb-lg-2 pt-lg-4">
+        <h2 class="h3 text-light text-center text-lg-start mb-4 mb-lg-5">Support by:</h2>
+        <div class="swiper ms-xxl-n5 me-xxl-n4" data-swiper-options='{
+            "slidesPerView": 3,
+            "spaceBetween": 24,
+            "pagination": {
+              "el": ".swiper-pagination",
+              "clickable": true
+            },
+            "breakpoints": {
+              "500": {
+                "slidesPerView": 3
+              },
+              "650": {
+                "slidesPerView": 4
+              },
+              "900": {
+                "slidesPerView": 5
+              },
+              "1100": {
+                "slidesPerView": 6
+              }
+            }
+          }'>
+          <div class="swiper-wrapper">
+
+            <!-- Item -->
+            <div class="swiper-slide">
+              <a href="https://www.tla.or.th/index.php" class="d-block py-3" target="_blank">
+                <img src="assets/img/brands/tla.svg" class="d-block mx-auto" width="154" alt="Brand">
+              </a>
+            </div>
+
+            <!-- Item -->
+            <div class="swiper-slide">
+              <a href="https://is.hu.swu.ac.th/" class="d-block py-3" target="_blank">
+                <img src="assets/img/brands/is-swu.svg" class="d-block mx-auto" width="154" alt="Brand">
+              </a>
+            </div>
+
+            <!-- Item -->
+            <div class="swiper-slide">
+              <a href="https://informatics.wu.ac.th/" class="d-block py-3" target="_blank">
+                <img src="assets/img/brands/Informatics-WU.svg" class="d-block mx-auto" width="154" alt="Brand">
+              </a>
+            </div>
+
+
+            <!-- Item -->
+            <div class="swiper-slide">
+              <a href="#" class="d-block py-3" target="_blank">
+                <img src="assets/img/brands/04.svg" class="d-block mx-auto" width="154" alt="Brand">
+              </a>
+            </div>
+
+            <!-- Item -->
+            <div class="swiper-slide">
+              <a href="#" class="d-block py-3" target="_blank">
+                <img src="assets/img/brands/05.svg" class="d-block mx-auto" width="154" alt="Brand">
+              </a>
+            </div>
+
+            <!-- Item -->
+            <div class="swiper-slide" target="_blank">
+              <a href="#" class="d-block py-3">
+                <img src="assets/img/brands/06.svg" class="d-block mx-auto" width="154" alt="Brand">
+              </a>
+            </div>
+          </div>
+
+          
+          <!-- Pagination (bullets) -->
+          <div class="swiper-pagination position-relative pt-2 mt-4"></div>
+        </div>
+      </div>
+    </section>
+
+  
+
+    <!-- Features (Icon boxes) -->
+    <section id="conferenceformat" class="container py-5 my-2 my-md-4 my-lg-5">
+      <h2 class="h1 text-center pt-1 pt-xl-3 mb-lg-4">รูปแบบการประชุมทางวิชาการ</h2>
+      <div class="swiper mx-n2" data-swiper-options='{
+          "slidesPerView": 1,
+          "spaceBetween": 8,
+          "pagination": {
+            "el": ".swiper-pagination",
+            "clickable": true
+          },
+          
+          "breakpoints": {
+            "500": {
+              "slidesPerView": 2
+            },
+            "800": {
+              "slidesPerView": 3
+            },
+            "1200": {
+              "slidesPerView": 4
+            }
+          }
+        }'>
+        <div class="swiper-wrapper">
+
+          <!-- Item -->
+          <div class="swiper-slide h-auto py-3">
+            <div class="card h-100 card-body card-hover mx-2">
+              <i class="bx bx-rocket display-5 fw-normal card-icon" style="color: #b4b7c9;"></i>
+              <h3 class="h5 pt-3 pb-1 mb-2">การบรรยายพิเศษ</h3>
+              <p class="mb-0">เรื่อง “สารสนเทศเพื่อส่งเสริมเศรษฐกิจสร้างสรรค์กับการพัฒนาอย่างยั่งยืน”</p>
+            </div>
+          </div>
+
+          <!-- Item -->
+          <div class="swiper-slide h-auto py-3">
+            <div class="card h-100 card-body card-hover mx-2">
+              <i class="bx bx-message-square-dots display-5 fw-normal card-icon" style="color: #b4b7c9;"></i>
+              <h3 class="h5 pt-3 pb-1 mb-2">การเสวนาทางวิชาการ</h3>
+              <p class="mb-0">เรื่อง
+                “ปัญญาประดิษฐ์เสริมพลังการวิจัยบรรณารักษศาสตร์และสารสนเทศศาสตร์เพื่อการพัฒนาที่ยั่งยืน”</p>
+            </div>
+          </div>
+
+          <!-- Item -->
+          <div class="swiper-slide h-auto py-3">
+            <div class="card h-100 card-body card-hover mx-2">
+              <i class="bx bx-news display-5 fw-normal card-icon" style="color: #b4b7c9;"></i>
+              <h3 class="h5 pt-3 pb-1 mb-2">การนำเสนอผลงานแบบโปสเตอร์</h3>
+              <p class="mb-0">(Poster Presentation)</p>
+            </div>
+          </div>
+
+          <!-- Item -->
+          <div class="swiper-slide h-auto py-3">
+            <div class="card h-100 card-body card-hover mx-2">
+              <i class="bx bx-group display-5 fw-normal card-icon" style="color: #b4b7c9;"></i>
+              <h3 class="h5 pt-3 pb-1 mb-2">การนำเสนอผลงานแบบบรรยาย</h3>
+              <p class="mb-0">(Oral Presentation)</p>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Pagination (bullets) -->
+        <div class="swiper-pagination position-relative d-xl-none pt-3 mt-4"></div>
+      </div>
+      <div class="d-flex flex-column flex-sm-row justify-content-center pt-3 pt-sm-4">
+        <a href="#" class="btn btn-primary shadow-primary btn-lg">
+          <i class="bx bx-calendar-check fs-5 lh-1 me-1"></i> Register</a>
+      </div>
+    </section>
+
+
+    <!-- Use cases (Tabs) -->
+    <section id="conferencedetail" class="container pt-5 pb-2 mt-3 mt-sm-4 mt-xl-5">
+      <h2 class="h1 text-center pb-3 pb-lg-4">รายละเอียดการประชุมทางวิชาการ</h2>
+
+      <!-- Nav tabs -->
+      <ul class="nav nav-tabs flex-wrap justify-content-center overflow-auto pb-2 mb-3 mb-lg-4" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link text-nowrap active" id="project-management-tab" data-bs-toggle="tab"
+            data-bs-target="#project-management" type="button" role="tab" aria-controls="project-management"
+            aria-selected="true">
+            <i class="bx bx-bulb fs-lg opacity-60 me-2"></i>
+            วัตถุประสงค์การประชุมทางวิชาการ
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link text-nowrap" id="remote-work-tab" data-bs-toggle="tab" data-bs-target="#remote-work"
+            type="button" role="tab" aria-controls="remote-work" aria-selected="false">
+            <i class="bx bx-time-five fs-lg opacity-60 me-2"></i>
+            ขั้นตอนการส่งผลงาน
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link text-nowrap" id="product-release-tab" data-bs-toggle="tab"
+            data-bs-target="#product-release" type="button" role="tab" aria-controls="product-release"
+            aria-selected="false">
+            <i class="bx bx-printer fs-lg opacity-60 me-2"></i>
+            การนำเสนอผลงานแบบโปสเตอร์
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link text-nowrap" id="campaign-planning-tab" data-bs-toggle="tab"
+            data-bs-target="#campaign-planning" type="button" role="tab" aria-controls="campaign-planning"
+            aria-selected="false">
+            <i class="bx bx-message-dots fs-lg opacity-60 me-2"></i>
+            การนำเสนอผลงานแบบบรรยาย
+          </button>
+        </li>
+      </ul>
+
+      <!-- Tab panes -->
+      <div class="tab-content bg-secondary rounded-3 py-4">
+
+        <!-- Project Management -->
+        <div class="tab-pane fade show active" id="project-management" role="tabpanel"
+          aria-labelledby="project-management-tab">
+          <div class="row align-items-center pt-3 pt-sm-4 pt-md-0 px-3 px-sm-4 px-lg-0">
+            <div class="col-lg-5 col-md-5 offset-lg-1 text-center text-md-start">
+              <h3 class="mb-lg-4">วัตถุประสงค์การประชุมทางวิชาการ</h3>
+              <p>เพื่อสร้างความเข้มแข็งทางวิชาการให้กับนิสิต/นักศึกษา คณาจารย์ นักวิจัย บรรณารักษ์
+                นักวิชาชีพสารสนเทศและผู้สนใจทั่วไปในการสร้างเครือข่ายความร่วมมือและแลกเปลี่ยนเรียนรู้จากนักวิชาการผู้เชี่ยวชาญในแวดวงวิชาชีพบรรณารักษศาสตร์และสารสนเทศศาสตร์
+                รวมทั้งเป็นช่องทางในการนำเสนอและเผยแพร่ผลงานทางวิชาการในขอบข่ายด้านบรรณารักษศาสตร์ สารสนเทศศาสตร์
+                สารสนเทศศึกษา การจัดการสารสนเทศ การจัดการสารสนเทศเเละสื่อดิจิทัล ดิจิทัลคอนเทนต์และสื่อ
+                เทคโนโลยีสารสนเทศ และการบูรณาการระหว่างศาสตร์ที่เกี่ยวข้อง</p>
+            </div>
+            <div class="col-lg-6 col-md-7 mt-md-4">
+              <lottie-player src="https://lottie.host/dc9546ec-4f85-4459-94b4-fee3046e2c64/2oPizZVZQp.json" style="width: 100%; height: 400px;" loop autoplay></lottie-player>
+            </div>
+          </div>
+        </div>
+
+        <!-- Remote Work -->
+        <div class="tab-pane fade" id="remote-work" role="tabpanel" aria-labelledby="remote-work-tab">
+          <div class="row align-items-center pt-3 pb-2 pb-sm-3 pt-sm-4 pt-md-0 px-3 px-sm-4 px-lg-0">
+            <div class="col-lg-4 col-md-5 offset-lg-1 text-center text-md-start">
+              <h3 class="mb-lg-4">ขั้นตอนการส่งผลงาน</h3>
+              <p>
+                ส่งผลงานเพื่อเข้าร่วมการนำเสนอผลงานได้โดยการลงทะเบียนเข้าร่วมการประชุมทางวิชาการและส่งผลงานผ่านทางอีเมล:
+                <a href="mailto:prin.k@tsu.ac.th; r.preeyaporn@gmail.com"
+                  style="text-decoration: none;">prin.k@tsu.ac.th</a> และ
+                <a href="mailto:r.preeyaporn@gmail.com; prin.k@tsu.ac.th"
+                  style="text-decoration: none;">r.preeyaporn@gmail.com</a> ตามวันเวลาที่กำหนด โดยจำกัดจำนวนผลงานไม่เกิน
+                2 ผลงานต่อคน
+              </p>
+
+              <b>กำหนดส่งบทคัดย่อ (Abstracts)</b> <br><i class="bx bx-calendar fs-6 lh-1 me-1"></i> ภายใน 10 พฤศจิกายน
+              2567 <br><br>
+              <b>กำหนดส่งผลงานฉบับเต็ม (Full Paper) </b> <br> <i class="bx bx-calendar fs-6 lh-1 me-1"></i> ภายใน 2
+              ธันวาคม 2567 <br>
+
+            </div>
+            <div class="col-lg-6 col-md-7 mt-md-4">
+              <lottie-player src="https://lottie.host/f2a2b683-2cf4-47e9-8778-38418aa84c82/IRt1hbS8ln.json" style="width: 100%; height: 400px;" loop autoplay></lottie-player>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product Release -->
+        <div class="tab-pane fade" id="product-release" role="tabpanel" aria-labelledby="product-release-tab">
+          <div class="row align-items-center pt-3 pt-sm-4 pt-md-0 px-3 pe-sm-4 pe-md-0 ps-sm-4 ps-lg-0">
+            <div class="col-lg-10 col-md-5 offset-lg-1 text-center text-md-start me-lg-1">
+              <h3 class="mb-lg-4">การนำเสนอผลงานแบบโปสเตอร์</h3>
+
+              <!-- Nested Pills as Buttons -->
+              <ul class="nav nav-tabs flex-wrap justify-content-center justify-content-md-start overflow-auto pb-2 mb-3 mb-lg-4" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link text-nowrap active" id="nested-tab-1" data-bs-toggle="tab"
+                    data-bs-target="#nested-content-1" type="button" role="tab" aria-controls="nested-content-1"
+                    aria-selected="true">
+                    <i class="bx bx-plus-circle fs-lg opacity-60 me-2"></i>
+                    องค์ประกอบของโปสเตอร์
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link text-nowrap" id="nested-tab-2" data-bs-toggle="tab"
+                    data-bs-target="#nested-content-2" type="button" role="tab" aria-controls="nested-content-2"
+                    aria-selected="false">
+                    <i class="bx bx-ruler fs-lg opacity-60 me-2"></i>
+                    ลักษณะและขนาดโปสเตอร์
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link text-nowrap" id="nested-tab-3" data-bs-toggle="tab"
+                    data-bs-target="#nested-content-3" type="button" role="tab" aria-controls="nested-content-2"
+                    aria-selected="false">
+                    <i class="bx bx-buildings fs-lg opacity-60 me-2"></i>
+                    การติดตั้งโปสเตอร์
+                  </button>
+                </li>
+              </ul>
+
+              <!-- Nested Tab Content -->
+              <div class="tab-content">
+                <!-- Content for Nested Tab 1 -->
+                <div class="tab-pane fade show active" id="nested-content-1" role="tabpanel"
+                  aria-labelledby="nested-tab-1">
+                  <!-- Numbered list group -->
+                  <ol class="list-group list-group-numbered">
+                    <li class="list-group-item"><b>ชื่อผลงาน</b> ชื่อเจ้าของผลงาน และหน่วยงานที่สังกัด</li>
+                    <li class="list-group-item"><b>บทนำ (โดยสังเขป)</b> กล่าวถึงที่มา ความสำคัญ วัตถุประสงค์หรือกรอบแนวคิดในการศึกษา เป็นต้น</li>
+                    <li class="list-group-item"><b>วิธีการศึกษา</b> กล่าวถึงกระบวนการศึกษา เครื่องมือที่ใช้ในการศึกษา เป็นต้น</li>
+                    <li class="list-group-item"><b>ผลการศึกษา</b> ระบุถึงผลการศึกษาที่สำคัญ</li>
+                    <li class="list-group-item"><b>บทสรุป (โดยสังเขป)</b> กล่าวถึงข้อค้นพบ ความสำเร็จ การนำไปใช้ประโยชน์ หรือการนำไปต่อยอด เป็นต้น</li>
+                  </ol>
+                </div>
+                <!-- Content for Nested Tab 2 -->
+                <div class="tab-pane fade" id="nested-content-2" role="tabpanel" aria-labelledby="nested-tab-2">
+                  <ol class="list-group list-group-numbered">
+                    <li class="list-group-item"><b>ลักษณะเนื้อหาภายในโปสเตอร์</b> ควรใช้คำไม่ฟุ่มเฟือย กระชับ ชัดเจน อาจใช้ตารางหรือรูปภาพเพื่อสื่อความหมายแทนข้อความ เป็นต้น</li>
+                    <li class="list-group-item"><b>ขนาดโปสเตอร์</b> แนวตั้งกว้าง 80 ซม. X สูง 110 ซม.</li>
+      
+                  </ol>
+                </div>
+                <div class="tab-pane fade" id="nested-content-3" role="tabpanel" aria-labelledby="nested-tab-3">
+                  <ol class="list-group list-group-numbered">
+                    <li class="list-group-item"><b>ติดตั้งผลงานแบบโปสเตอร์</b> ได้ตั้งแต่วันที่ 8 ธันวาคม 2567 เวลา 15.00 น. เป็นต้นไป ณ ห้องประชุมใหญ่ที่มีการบรรยายพิเศษและการเสวนาทางวิชาการ</li>
+                    <li class="list-group-item"><b>ผู้นำเสนอผลงานแบบโปสเตอร์</b> ต้องเตรียมความพร้อมเพื่อนำเสนอผลงานให้กับผู้ที่สนใจ ณ จุดติดตั้งโปสเตอร์ (ตามวันเวลาในกำหนดการ) โดยมีการประเมินและให้คะแนนผลงานจากผู้ทรงคุณวุฒิ ผลการตัดสินแบบโปสเตอร์จะถูกประกาศและมอบรางวัลพร้อมเกียรติบัตรก่อนพิธีปิดโครงการ ในวันที่ 9 ธันวาคม 2567</li>
+      
+                  </ol>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Campaign Planning -->
+        <div class="tab-pane fade" id="campaign-planning" role="tabpanel" aria-labelledby="campaign-planning-tab">
+          <div class="row align-items-center pt-3 pt-sm-4 pt-md-0 px-3 pe-sm-4 pe-md-0 ps-sm-4 ps-lg-0">
+            <div class="col-lg-4 col-md-5 offset-lg-1 text-center text-md-start">
+              <h3 class="mb-lg-4">การนำเสนอผลงานแบบบรรยาย</h3>
+              <p>ส่วนประกอบของเนื้อหาผลงานแบบบรรยาย (บทความ) <br>สามารถดาวน์โหลดได้ที่ 
+                <br><a href="https://so06.tci-thaijo.org/index.php/tla_research/about"
+                  style="text-decoration: none;" target="_blank">เว็บไซต์วารสารวิจัย สมาคมห้องสมุดแห่งประเทศไทยฯ</a><br> ผลงานแบบบรรยายในแต่ละ Session 
+                ที่ได้รับการประเมินและให้คะแนนจากผู้ทรงคุณวุฒิ ผลการตัดสินจะถูกประกาศและมอบของที่ระลึกพร้อมเกียรติบัตร</p>
+            </div>
+            <div class="col-lg-6 col-md-7 mt-n3 mt-md-1">
+              <lottie-player src="https://lottie.host/9cfa5836-0969-483e-b55d-cf27d921c27a/9r2EBsgln5.json" style="width: 100%; height: 400px;" loop autoplay></lottie-player>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="registrationfee" class="container py-5 my-2 my-md-4 my-lg-5">
+      <div class="row pt-xl-2 pb-md-3">
+        <div class="col-lg-12 mb-1">
+          <h2 class="h1 text-center mb-4">ค่าลงทะเบียน</h2>
+        </div>
+      </div>
+
+      <div class="row">
+        <!-- First Column -->
+        <div class="col-lg-4 border-bottom mb-4">
+          <h4 class="text-center mb-1">การลงทะเบียนเข้าร่วมงาน</h4>
+          <h6 class="text-center mb-4">ภายในวันที่ 15 พฤศจิกายน 2567</h6>
+          <ul class="list-group">
+
+            <li class="list-group-item d-flex flex-column flex-sm-row align-items-center justify-content-between p-4">
+              <div class="d-flex align-items-center">
+                <i class="bx bx-library fs-3 lh-1 me-1"></i>
+                <h4 class="fs-base fw-light text-nowrap ps-1 mb-0">สมาชิกสมาคมห้องสมุด</h4>
+              </div>
+              <h5 class="badge custom-bg-1 fs-5 fw-bold rounded px-3 py-0 my-3 my-sm-0">฿ 1,500</h5>
+            </li>
+            <li class="list-group-item d-flex flex-column flex-sm-row align-items-center justify-content-between p-4">
+              <div class="d-flex align-items-center">
+                <i class="bx bx-face fs-3 lh-1 me-1"></i>
+                <h4 class="fs-base fw-light text-nowrap ps-1 mb-0">ไม่เป็นสมาชิกสมาคมห้องสมุด</h4>
+              </div>
+              <h5 class="badge custom-bg-2 fs-5 fw-bold rounded px-3 py-0 my-3 my-sm-0">฿ 1,700</h5>
+            </li>
+
+            <li class="list-group-item d-flex flex-column flex-sm-row align-items-center justify-content-between p-4">
+              <div class="d-flex align-items-center">
+                <i class="bx bx-book fs-3 lh-1 me-1"></i>
+                <h4 class="fs-base fw-light text-nowrap ps-1 mb-0">นิสิต/นักศึกษาระดับปริญญาตรี</h4>
+              </div>
+              <h5 class="badge custom-bg-3 fs-5 fw-bold rounded px-3 py-0 my-3 my-sm-0">฿ 1,000</h5>
+            </li>
+
+            <li class="list-group-item d-flex flex-column flex-sm-row align-items-center justify-content-between p-4">
+              <div class="d-flex align-items-center">
+                <svg class="flex-shrink-0 me-2" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z" fill="currentColor" />
+                </svg>
+                <h4 class="fs-base fw-light text-nowrap ps-1 mb-0">ค่าลงทะเบียนรวมอาหารว่างและอาหารกลางวัน</h4>
+              </div>
+            </li>
+            <!-- More items can be added here for this column -->
+          </ul>
+          <br />
+        </div>
+
+        
+
+        <!-- Second Column -->
+        <div class="col-lg-4 border-bottom mb-4">
+          <h4 class="text-center mb-1">การลงทะเบียนเข้าร่วมงาน</h4>
+          <h6 class="text-center mb-4">หลังวันที่ 15 พฤศจิกายน 2567</h6>
+          <ul class="list-group">
+            <li class="list-group-item d-flex flex-column flex-sm-row align-items-center justify-content-between p-4">
+              <div class="d-flex align-items-center">
+                <i class="bx bx-library fs-3 lh-1 me-1"></i>
+                <h4 class="fs-base fw-light text-nowrap ps-1 mb-0">สมาชิกสมาคมห้องสมุด</h4>
+              </div>
+              <h5 class="badge custom-bg-1 fs-5 fw-bold rounded px-3 py-0 my-3 my-sm-0">฿ 1,700</h5>
+            </li>
+            <li class="list-group-item d-flex flex-column flex-sm-row align-items-center justify-content-between p-4">
+              <div class="d-flex align-items-center">
+                <i class="bx bx-face fs-3 lh-1 me-1"></i>
+                <h4 class="fs-base fw-light text-nowrap ps-1 mb-0">ไม่เป็นสมาชิกสมาคมห้องสมุด</h4>
+              </div>
+              <h5 class="badge custom-bg-2 fs-5 fw-bold rounded px-3 py-0 my-3 my-sm-0">฿ 1,900</h5>
+            </li>
+
+            <li class="list-group-item d-flex flex-column flex-sm-row align-items-center justify-content-between p-4">
+              <div class="d-flex align-items-center">
+                <i class="bx bx-book fs-3 lh-1 me-1"></i>
+                <h4 class="fs-base fw-light text-nowrap ps-1 mb-0">นิสิต/นักศึกษาระดับปริญญาตรี</h4>
+              </div>
+              <h5 class="badge custom-bg-3 fs-5 fw-bold rounded px-3 py-0 my-3 my-sm-0">฿ 1,000</h5>
+            </li>
+
+            <li class="list-group-item d-flex flex-column flex-sm-row align-items-center justify-content-between p-4">
+              <div class="d-flex align-items-center">
+                <svg class="flex-shrink-0 me-2" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z" fill="currentColor" />
+                </svg>
+                <h4 class="fs-base fw-light text-nowrap ps-1 mb-0">ค่าลงทะเบียนรวมอาหารว่างและอาหารกลางวัน</h4>
+              </div>
+            </li>
+            <!-- More items can be added here for this column -->
+          </ul>
+
+
+        </div>
+
+        <!-- Third Column -->
+        <div class="col-lg-4 border-bottom mb-4">
+          <h4 class="text-center mb-1">การนำเสนอผลงาน</h4>
+          <h6 class="text-center mb-4">การนำเสนอโปสเตอร์ เรื่องละไม่เกิน 15 นาที</h6>
+          <ul class="list-group">
+            <li class="list-group-item d-flex flex-column flex-sm-row align-items-center justify-content-between p-4">
+              <div class="d-flex align-items-center">
+                <i class="bx bx-library fs-3 lh-1 me-1"></i>
+                <h4 class="fs-base fw-light text-nowrap ps-1 mb-0">สมาชิกสมาคมห้องสมุด</h4>
+              </div>
+              <h5 class="badge custom-bg-1 fs-5 fw-bold rounded px-3 py-0 my-3 my-sm-0">฿ 1,500</h5>
+            </li>
+            <li class="list-group-item d-flex flex-column flex-sm-row align-items-center justify-content-between p-4">
+              <div class="d-flex align-items-center">
+                <i class="bx bx-face fs-3 lh-1 me-1"></i>
+                <h4 class="fs-base fw-light text-nowrap ps-1 mb-0">ไม่เป็นสมาชิกสมาคมห้องสมุด</h4>
+              </div>
+              <h5 class="badge custom-bg-2 fs-5 fw-bold rounded px-3 py-0 my-3 my-sm-0">฿ 3,000</h5>
+            </li>
+
+            <li class="list-group-item d-flex flex-column flex-sm-row align-items-center justify-content-between p-4">
+              <div class="d-flex align-items-center">
+                <i class="bx bx-book fs-3 lh-1 me-1"></i>
+                <h4 class="fs-base fw-light text-nowrap ps-1 mb-0">นิสิต/นักศึกษาระดับปริญญาตรี</h4>
+              </div>
+              <h5 class="badge custom-bg-3 fs-5 fw-bold rounded px-3 py-0 my-3 my-sm-0">฿ 1,000</h5>
+            </li>
+
+            <li class="list-group-item d-flex flex-column flex-sm-row align-items-center justify-content-between p-4">
+              <div class="d-flex align-items-center">
+                <svg class="flex-shrink-0 me-2" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z" fill="currentColor" />
+                </svg>
+                <h4 class="fs-base fw-light text-nowrap ps-1 mb-0">ค่าลงทะเบียนรวมอาหารว่างและอาหารกลางวัน</h4>
+              </div>
+            </li>
+            <!-- More items can be added here for this column -->
+
+          </ul>
+
+
+        </div>
+        
+        <div class="d-flex flex-column flex-sm-row justify-content-center pt-3 pt-sm-4">
+          <a href="#" class="btn btn-primary shadow-primary btn-lg">
+            <i class="bx bx-calendar-check fs-5 lh-1 me-1"></i> Register</a>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    
+
+    <!-- Schedule -->
+    <section id="schedule" class="container py-5">
+      <div class="row mt-xl-2 mb-xl-3 pb-3 py-md-4 py-lg-5">
+        <div class="col-12">
+          <h2 class="h1 text-center pb-2 pb-lg-0 mb-4 mb-lg-5">กำหนดการ</h2>
+        </div>
+        <div class="col-lg-3 mb-4">
+
+          <!-- Nav tabs -->
+          <div class="nav flex-nowrap flex-lg-column nav-tabs" role="tablist" aria-orientation="vertical">
+            <a href="#day-1" class="nav-link d-block w-100 rounded-3 p-4 p-xl-5 me-2 me-sm-3 me-lg-0 mb-lg-3 active"
+              id="day-1-tab" data-bs-toggle="tab" role="tab" aria-controls="day-1" aria-selected="true">
+              <div class="fs-xl">Morning</div>
+              <div class="fs-3 fw-bold">Dec 9, 2024</div>
+              <span class="badge bg-light shadow-light fs-sm">Special Lecture & Discussion</span>
+            </a>
+            <a href="#day-2" class="nav-link d-block w-100 rounded-3 p-4 p-xl-5" id="day-2-tab" data-bs-toggle="tab"
+              role="tab" aria-controls="day-2" aria-selected="false">
+              <div class="fs-xl">Afternoon</div>
+              <div class="fs-3 fw-bold">Dec 9, 2024</div>
+              <span class="badge bg-light shadow-light fs-sm">Sub-grouping</span>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-8 offset-lg-1">
+
+          <!-- Tab panes -->
+          <div class="tab-content">
+
+            <!-- Morning schedule -->
+            <div class="tab-pane fade show active" id="day-1" role="tabpanel" aria-labelledby="day-1-tab">
+              <div class="border-bottom pb-4">
+                <div class="row pb-1 pb-xl-3">
+                  <div class="col-sm-4 mb-3 mb-sm-0">
+                    <div class="h5 mb-1">8:00 – 8:30 am</div>
+                    <p class="text-muted mb-0">December 9th</p>
+                  </div>
+                  <div class="col-sm-8">
+                    <h5 class="mb-0">ลงทะเบียนเข้าร่วมงาน</h5>
+                    <p class="mb-4">ณ ห้องปรินซ์ บอลลูม 3 ชั้น 11 อาคาร 1 โรงแรมปรินซ์ พาเลซ มหานาค กรุงเทพมหานคร</p>
+                  </div>
+                </div>
+              </div>
+              <div class="border-bottom py-4">
+                <div class="row py-1 py-xl-3">
+                  <div class="col-sm-4 mb-3 mb-sm-0">
+                    <div class="h5 mb-1">8:30 – 8:40 am</div>
+                    <p class="text-muted mb-2 mb-sm-4">December 9th</p>
+                    <!-- <span class="badge bg-warning shadow-warning fs-sm">Lecture</span> -->
+                  </div>
+                  <div class="col-sm-8">
+                    <h5>กล่าวรายงานโดย</h5>
+                    <p class="mb-4"></p>
+                    <div class="d-flex align-items-center">
+                      <img src="assets/img/avatar/41.jpg" class="rounded-circle" width="48" alt="Marvin McKinney">
+                      <div class="ps-3">
+                        <h6 class="fw-semibold mb-1">อาจารย์ ดร.ปริญญ์ ขวัญเรียง</h6>
+                        <p class="fs-sm text-muted mb-0">คณะมนุษยศาสตร์และสังคมศาสตร์ มหาวิทยาลัยทักษิณ</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="border-bottom py-4">
+                <div class="row py-1 py-xl-3">
+                  <div class="col-sm-4 mb-3 mb-sm-0">
+                    <div class="h5 mb-1">8:40 – 8:50 am</div>
+                    <p class="text-muted mb-2 mb-sm-4">December 9th</p>
+                  </div>
+                  <div class="col-sm-8">
+                    <h5>พิธีเปิดโดย</h5>
+                    <p class="mb-4"></p>
+                    <div class="d-flex align-items-center">
+                      <img src="assets/img/avatar/41.jpg" class="rounded-circle" width="48" alt="Marvin McKinney">
+                      <div class="ps-3">
+                        <h6 class="fw-semibold mb-1">ศาสตรเมธี สุวคนธ์ ศิริวงศ์วรวัฒน์</h6>
+                        <p class="fs-sm text-muted mb-0">นายกสมาคมห้องสมุดแห่งประเทศไทยฯ</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="border-bottom py-4">
+                <div class="row py-1 py-xl-3">
+                  <div class="col-sm-4 mb-3 mb-sm-0">
+                    <div class="h5 mb-1">8:50 – 10:20 am</div>
+                    <p class="text-muted mb-2 mb-sm-4">December 9th</p>
+                    <span class="badge bg-success shadow-success fs-sm">Special Lecture</span>
+                  </div>
+                  <div class="col-sm-8">
+                    <h5 class="mb-0">การบรรยายพิเศษ</h5>
+                    <p class="mb-4">เรื่อง "สารสนเทศเพื่อส่งเสริมเศรษฐกิจสร้างสรรค์กับการพัฒนาอย่างยั่งยืน"</p>
+
+                    <div class="col">
+
+                      <div class="d-flex align-items-center">
+                        <img src="assets/img/avatar/01.jpg" class="rounded-circle" width="48" alt="Jerome Bell">
+                        <div class="ps-3">
+                          <h6 class="fw-semibold mb-1">ผู้ช่วยศาสตราจารย์ ดร.กันยารัตน์ เควียเซ่น</h6>
+                          <p class="fs-sm text-muted mb-0">คณะมนุษยศาสตร์และสังคมศาสตร์ มหาวิทยาลัยขอนแก่น</p>
+                          <span class="badge bg-info shadow-info fs-sm">Keynote Speaker</span>
+
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <div class="border-bottom py-4">
+                <div class="row py-1 py-xl-3">
+                  <div class="col-sm-4 mb-3 mb-sm-0">
+                    <div class="h5 mb-1">10:20 – 10:30 am</div>
+                    <p class="text-muted mb-0">December 9th</p>
+                  </div>
+                  <div class="col-sm-8">
+                    <h5 class="mb-0">พักรับประทานอาหารว่าง</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="border-bottom py-4">
+                <div class="row py-1 py-xl-3">
+                  <div class="col-sm-4 mb-3 mb-sm-0">
+                    <div class="h5 mb-1">10:30 – 12:00 pm</div>
+                    <p class="text-muted mb-2 mb-sm-4">December 9th</p>
+                    <span class="badge bg-warning shadow-warning fs-sm">Discussion</span>
+                  </div>
+                  <div class="col-sm-8">
+                    <h5 class="mb-0">การเสวนา</h5>
+                    <p class="mb-4">เรื่อง
+                      "ปัญญาประดิษฐ์เสริมพลังการวิจัยบรรณารักษศาสตร์และสารสนเทศศาสตร์เพื่อการพัฒนาที่ยั่งยืน"</p>
+
+                    <div class="col">
+                      <div class="d-flex align-items-center">
+                        <img src="assets/img/avatar/02.jpg" class="rounded-circle" width="48" alt="Ralph Edwards">
+                        <div class="ps-3">
+                          <h6 class="fw-semibold mb-1">ศาสตราจารย์ ดร.ปณิตา วรรณพิรุณ</h6>
+                          <p class="fs-sm text-muted mb-0">คณะครุศาสตร์อุตสาหกรรม,
+                            มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ</p>
+                          <span class="badge bg-info shadow-info fs-sm">Keynote Speaker</span>
+                        </div>
+                      </div>
+                    </div>
+                    <br />
+                    <div class="col">
+                      <div class="d-flex align-items-center">
+                        <img src="assets/img/avatar/05.jpg" class="rounded-circle" width="48" alt="Albert Flores">
+                        <div class="ps-3">
+                          <h6 class="fw-semibold mb-1">อาจารย์ ดร.ยุทธนา เจริญรื่น</h6>
+                          <p class="fs-sm text-muted mb-0">สำนักวิชาสารสนเทศศาสตร์ มหาวิทยาลัยวลัยลักษณ์</p>
+                          <span class="badge bg-info shadow-info fs-sm">Keynote Speaker</span>
+                        </div>
+                      </div>
+                    </div>
+                    <br />
+                    <div class="col">
+                      <div class="d-flex align-items-center">
+                        <img src="assets/img/avatar/03.jpg" class="rounded-circle" width="48" alt="Esther Howard">
+                        <div class="ps-3">
+                          <h6 class="fw-semibold mb-1">อาจารย์ ดร.ปริญญ์ ขวัญเรียง</h6>
+                          <p class="fs-sm text-muted mb-0">คณะมนุษยศาสตร์และสังคมศาสตร์ มหาวิทยาลัยทักษิณ</p>
+                          <span class="badge bg-info shadow-info fs-sm">Moderator</span>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <div class="border-bottom py-4">
+                <div class="row pt-1 pt-xl-3">
+                  <div class="col-sm-4 mb-3 mb-sm-0">
+                    <div class="h5 mb-1">12:00 – 13:00 pm</div>
+                    <p class="text-muted mb-0">December 9th</p>
+                  </div>
+                  <div class="col-sm-8">
+                    <h5 class="mb-0">พักรับประทานอาหารกลางวัน</h5>
+                  </div>
+                </div>
+              </div>
+              <br />
+              <u>หมายเหตุ</u> กำหนดการอาจเปลี่ยนแปลงตามความเหมาะสม
+            </div>
+
+            <!-- Afternoon schedule -->
+            <div class="tab-pane fade" id="day-2" role="tabpanel" aria-labelledby="day-2-tab">
+              <div class="border-bottom pb-4">
+                <div class="row pb-1 pb-xl-3">
+                  <div class="col-sm-4 mb-3 mb-sm-0">
+                    <div class="h5 mb-1">13:10 – 14:40 pm</div>
+                    <p class="text-muted mb-0">December 9th</p>
+                  </div>
+                  <div class="col-sm-8">
+                    <h5 class="mb-0">การนำเสนอผลงานแบบโปสเตอร์</h5>
+                    <p class="mb-4">การแบ่งกลุ่มย่อย : นำเสนอผลงานทางวิชาการระดับชาติ</p>
+                    <p>การนำเสนอโปสเตอร์ เรื่องละไม่เกิน 15 นาที <br /> (นำเสนอ 10 นาที ตอบคำถาม 5 นาที)</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="border-bottom py-4">
+                <div class="row py-1 py-xl-3">
+                  <div class="col-sm-4 mb-3 mb-sm-0">
+                    <span class="badge bg-dark shadow-dark fs-sm">Meeting room 1</span>
+                  </div>
+                  <div class="col-sm-8">
+                    <h5 class="mb-0">ห้องประชุมย่อย 1 : การบริหารจัดการห้องสมุด</h5>
+                    <p class="mb-4">การแบ่งกลุ่มย่อย : นำเสนอผลงานทางวิชาการระดับชาติ</p>
+
+                    <div class="col">
+                      <div class="d-flex align-items-center">
+                        <img src="assets/img/avatar/01.jpg" class="rounded-circle" width="48" alt="Jerome Bell">
+                        <div class="ps-3">
+                          <h6 class="fw-semibold mb-1">ผู้ช่วยศาสตราจารย์ ดร.จุฑารัตน์ นกแก้ว</h6>
+                          <p class="fs-sm text-muted mb-0">สมาคมห้องสมุดแห่งประเทศไทยฯ</p>
+                          <span class="badge bg-info shadow-info fs-sm">Session Chair</span>
+                        </div>
+                      </div>
+                    </div>
+                    <br />
+                    <div class="col">
+                      <div class="d-flex align-items-center">
+                        <img src="assets/img/avatar/06.jpg" class="rounded-circle" width="48" alt="Jenny Wilson">
+                        <div class="ps-3">
+                          <h6 class="fw-semibold mb-1">ผู้ช่วยศาสตราจารย์ ดร.ก้องกิดากร บุญช่วย</h6>
+                          <p class="fs-sm text-muted mb-0">คณะมนุษยศาสตร์และสังคมศาสตร์ มหาวิทยาลัยทักษิณ</p>
+                          <span class="badge bg-info shadow-info fs-sm">Session Chair</span>
+                        </div>
+                      </div>
+                    </div>
+                    <br />
+                    <div class="col">
+                      <div class="d-flex align-items-center">
+                        <img src="assets/img/avatar/06.jpg" class="rounded-circle" width="48" alt="Jenny Wilson">
+                        <div class="ps-3">
+                          <h6 class="fw-semibold mb-1">อาจารย์ ดร.ปัญญา จันทโคต</h6>
+                          <p class="fs-sm text-muted mb-0">คณะอักษรศาสตร์ มหาวิทยาลัยศิลปากร</p>
+                          <span class="badge bg-info shadow-info fs-sm">Session Chair</span>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="border-bottom py-4">
+                <div class="row py-1 py-xl-3">
+                  <div class="col-sm-4 mb-3 mb-sm-0">
+                    <span class="badge bg-dark shadow-dark fs-sm">Meeting room 2</span>
+                  </div>
+                  <div class="col-sm-8">
+                    <h5 class="mb-0">ห้องประชุมย่อย 2 : นวัตกรรมและเทคโนโลยีห้องสมุด</h5>
+                    <p class="mb-4">การแบ่งกลุ่มย่อย : นำเสนอผลงานทางวิชาการระดับชาติ</p>
+
+                    <div class="col">
+                      <div class="d-flex align-items-center">
+                        <img src="assets/img/avatar/01.jpg" class="rounded-circle" width="48" alt="Jerome Bell">
+                        <div class="ps-3">
+                          <h6 class="fw-semibold mb-1">ผู้ช่วยศาสตราจารย์ ดร.นวพล แก้วสุวรรณ</h6>
+                          <p class="fs-sm text-muted mb-0">คณะมนุษยศาสตร์และสังคมศาสตร์ มหาวิทยาลัยสงขลานครินทร์</p>
+                          <span class="badge bg-info shadow-info fs-sm">Session Chair</span>
+                        </div>
+                      </div>
+                    </div>
+                    <br />
+                    <div class="col">
+                      <div class="d-flex align-items-center">
+                        <img src="assets/img/avatar/06.jpg" class="rounded-circle" width="48" alt="Jenny Wilson">
+                        <div class="ps-3">
+                          <h6 class="fw-semibold mb-1">ผู้ช่วยศาสตราจารย์ ดร.เยาวลักษณ์ สุวรรณแข</h6>
+                          <p class="fs-sm text-muted mb-0">คณะมนุษยศาสตร์และสังคมศาสตร์ มหาวิทยาลัยทักษิณ</p>
+                          <span class="badge bg-info shadow-info fs-sm">Session Chair</span>
+                        </div>
+                      </div>
+                    </div>
+                    <br />
+                    <div class="col">
+                      <div class="d-flex align-items-center">
+                        <img src="assets/img/avatar/06.jpg" class="rounded-circle" width="48" alt="Jenny Wilson">
+                        <div class="ps-3">
+                          <h6 class="fw-semibold mb-1">อาจารย์ ดร. ธีรเดช มานะกุล</h6>
+                          <p class="fs-sm text-muted mb-0">คณะมนุษยศาสตร์และสังคมศาสตร์ มหาวิทยาลัยบูรพา</p>
+                          <span class="badge bg-info shadow-info fs-sm">Session Chair</span>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="border-bottom py-4">
+                <div class="row py-1 py-xl-3">
+                  <div class="col-sm-4 mb-3 mb-sm-0">
+                    <span class="badge bg-dark shadow-dark fs-sm">Meeting room 3</span>
+                  </div>
+                  <div class="col-sm-8">
+                    <h5 class="mb-0">ห้องประชุมย่อย 3 : พฤติกรรมสารสนเทศ การจัดการความรู้ ภูมิปัญญาและการบูรณาการ</h5>
+                    <p class="mb-4">การแบ่งกลุ่มย่อย : นำเสนอผลงานทางวิชาการระดับชาติ</p>
+
+                    <div class="col">
+                      <div class="d-flex align-items-center">
+                        <img src="assets/img/avatar/01.jpg" class="rounded-circle" width="48" alt="Jerome Bell">
+                        <div class="ps-3">
+                          <h6 class="fw-semibold mb-1">ผู้ช่วยศาสตราจารย์ ดร. ดวงแก้ว เงินพูลทรัพย์</h6>
+                          <p class="fs-sm text-muted mb-0">สาขาวิชาศิลปศาสตร์ มหาวิทยาลัยสุโขทัยธรรมาธิราช</p>
+                          <span class="badge bg-info shadow-info fs-sm">Session Chair</span>
+                        </div>
+                      </div>
+                    </div>
+                    <br />
+                    <div class="col">
+                      <div class="d-flex align-items-center">
+                        <img src="assets/img/avatar/06.jpg" class="rounded-circle" width="48" alt="Jenny Wilson">
+                        <div class="ps-3">
+                          <h6 class="fw-semibold mb-1">อาจารย์ ดร.โชคธำรงค์ จงจอหอ</h6>
+                          <p class="fs-sm text-muted mb-0">คณะมนุษยศาสตร์ มหาวิทยาลัยศรีนครินทรวิโรฒ</p>
+                          <span class="badge bg-info shadow-info fs-sm">Session Chair</span>
+                        </div>
+                      </div>
+                    </div>
+                    <br />
+                    <div class="col">
+                      <div class="d-flex align-items-center">
+                        <img src="assets/img/avatar/06.jpg" class="rounded-circle" width="48" alt="Jenny Wilson">
+                        <div class="ps-3">
+                          <h6 class="fw-semibold mb-1">อาจารย์ลัดดา ประสาร</h6>
+                          <p class="fs-sm text-muted mb-0">คณะมนุษยศาสตร์และสังคมศาสตร์ มหาวิทยาลัยทักษิณ</p>
+                          <span class="badge bg-info shadow-info fs-sm">Session Chair</span>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="border-bottom py-4">
+                <div class="row py-1 py-xl-3">
+                  <div class="col-sm-4 mb-3 mb-sm-0">
+                    <div class="h5 mb-1">14:40 – 15:00 pm</div>
+                    <p class="text-muted mb-0">December 9th</p>
+                  </div>
+                  <div class="col-sm-8">
+                    <h5 class="mb-0">พักรับประทานอาหารว่าง</h5>
+                  </div>
+                </div>
+              </div>
+
+              <div class="border-bottom py-4">
+                <div class="row py-1 py-xl-3">
+                  <div class="col-sm-4 mb-3 mb-sm-0">
+                    <div class="h5 mb-1">15:00 – 16:30 pm</div>
+                    <p class="text-muted mb-0">December 9th</p>
+                  </div>
+                  <div class="col-sm-8">
+                    <h5 class="mb-0">การนำเสนอผลงานแบบโปสเตอร์ (ต่อ)</h5>
+                  </div>
+                </div>
+              </div>
+
+              <div class="border-bottom py-4">
+                <div class="row py-1 py-xl-3">
+                  <div class="col-sm-4 mb-3 mb-sm-0">
+                    <div class="h5 mb-1">16:30 – 17:00 pm</div>
+                    <p class="text-muted mb-2 mb-sm-4">December 9th</p>
+                    <span class="badge bg-dark shadow-dark fs-sm">Large meeting room</span>
+                  </div>
+                  <div class="col-sm-8">
+                    <h5 class="mb-0">ประกาศผลการนำเสนอผลงาน</h5>
+                    <p class="mb-4">พร้อมมอบของที่ระลึกและเกียรติบัตร</p>
+
+                    <div class="col">
+                      <div class="d-flex align-items-center">
+                        <img src="assets/img/avatar/01.jpg" class="rounded-circle" width="48" alt="Jerome Bell">
+                        <div class="ps-3">
+                          <h6 class="fw-semibold mb-1">ผู้ช่วยศาสตราจารย์ ดร.ก้องกิดากร บุญช่วย</h6>
+                          <p class="fs-sm text-muted mb-0">คณะมนุษยศาสตร์และสังคมศาสตร์ มหาวิทยาลัยทักษิณ</p>
+                          <span class="badge bg-info shadow-info fs-sm">Master of Ceremony</span>
+                        </div>
+                      </div>
+                    </div>
+                    <br />
+                    <div class="col">
+                      <div class="d-flex align-items-center">
+                        <img src="assets/img/avatar/06.jpg" class="rounded-circle" width="48" alt="Jenny Wilson">
+                        <div class="ps-3">
+                          <h6 class="fw-semibold mb-1">อาจารย์ ดร.สรคม ดิสสะมาน</h6>
+                          <p class="fs-sm text-muted mb-0">คณะอักษรศาสตร์ จุฬาลงกรณ์มหาวิทยาลัย</p>
+                          <span class="badge bg-info shadow-info fs-sm">Master of Ceremony</span>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <div class="border-bottom py-4">
+                <div class="row py-1 py-xl-3">
+                  <div class="col-sm-4 mb-3 mb-sm-0">
+                    <div class="h5 mb-1">17:00 – 17:10 pm</div>
+                    <p class="text-muted mb-0">December 9th</p>
+                  </div>
+                  <div class="col-sm-8">
+                    <h5 class="mb-0">ปิดการประชุมและถ่ายภาพร่วมกัน</h5>
+                  </div>
+                </div>
+              </div>
+              <br />
+              <u>หมายเหตุ</u> กำหนดการอาจเปลี่ยนแปลงตามความเหมาะสม
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Team (Slider) -->
+    <!-- breakpoints 2-480 3-700 4-900 5-1160 6-1500  -->
+    <section class="container-fluid pt-lg-2 pb-5 mb-2 mb-md-4 mb-lg-5">
+      <h2 class="h1 text-center pb-md-1 mb-1 mb-sm-1">ผู้มีส่วนเกี่ยวข้อง</h2>
+      <p class="fs-4 text-center pb-md-1 mb-1 mb-sm-3">ในการประชุมทางวิชาการ</p>
+     
+      <div class="swiper mx-0 mb-md-n2 mb-xxl-n3" data-swiper-options='{
+        "slidesPerView": 1,
+        "spaceBetween": 8,
+        "loop": true,
+        "pagination": {
+          "el": ".swiper-pagination",
+          "clickable": true
+        },
+        "breakpoints": {
+          "480": {
+            "slidesPerView": 2
+          },
+          "700": {
+            "slidesPerView": 3
+          },
+          "900": {
+            "slidesPerView": 4
+          },
+          "1160": {
+            "slidesPerView": 5
+          }
+        }
+      }'>
+        <div class="swiper-wrapper">
+
+          <!-- Item -->
+          <div class="swiper-slide py-3">
+            <div class="card card-body card-hover bg-light border-0 text-center mx-2">
+              <img src="assets/img/team/09.jpg" class="d-block rounded-circle mx-auto mb-3" width="162" alt="Ralph Edwards">
+              <h5 class="fw-medium fs-lg mb-1">ผศ.ดร.กันยารัตน์ เควียเซ่น</h5>
+              <p class="fs-sm mb-1">คณะมนุษยศาสตร์และสังคมศาสตร์ มหาวิทยาลัยขอนแก่น</p>
+              <span class="badge bg-primary rounded-pill mb-3">Keynote Speaker</span>
+              
+            </div>
+          </div>
+
+          <!-- Item -->
+          <div class="swiper-slide py-3">
+            <div class="card card-body card-hover bg-light border-0 text-center mx-2">
+              <img src="assets/img/team/10.jpg" class="d-block rounded-circle mx-auto mb-3" width="162" alt="Darrell Steward">
+              <h5 class="fw-medium fs-lg mb-1">ศ.ดร.ปณิตา วรรณพิรุณ</h5>
+              <p class="fs-sm mb-3">คณะครุศาสตร์อุตสาหกรรม, มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ</p>
+              <span class="badge bg-primary rounded-pill mb-3">Keynote Speaker</span>
+          
+            </div>
+          </div>
+
+          <!-- Item -->
+          <div class="swiper-slide py-3">
+            <div class="card card-body card-hover bg-light border-0 text-center mx-2">
+              <img src="assets/img/team/11.jpg" class="d-block rounded-circle mx-auto mb-3" width="162" alt="Cameron Williamson">
+              <h5 class="fw-medium fs-lg mb-1">ดร.ยุทธนา เจริญรื่น</h5>
+              <p class="fs-sm mb-3">สำนักวิชาสารสนเทศศาสตร์ มหาวิทยาลัยวลัยลักษณ์</p>
+              <span class="badge bg-primary rounded-pill mb-3">Keynote Speaker</span>
+              
+            </div>
+          </div>
+
+          <!-- Item -->
+          <div class="swiper-slide py-3">
+            <div class="card card-body card-hover bg-light border-0 text-center mx-2">
+              <img src="assets/img/team/12.jpg" class="d-block rounded-circle mx-auto mb-3" width="162" alt="Jerome Bell">
+              <h5 class="fw-medium fs-lg mb-1">ดร.ปริญญ์ ขวัญเรียง</h5>
+              <p class="fs-sm mb-3">คณะมนุษยศาสตร์และสังคมศาสตร์ มหาวิทยาลัยทักษิณ</p>
+              <span class="badge bg-primary rounded-pill mb-3">Keynote Speaker</span>
+              
+            </div>
+          </div>
+
+          <!-- Item -->
+          <div class="swiper-slide py-3">
+            <div class="card card-body card-hover bg-light border-0 text-center mx-2">
+              <img src="assets/img/team/13.jpg" class="d-block rounded-circle mx-auto mb-3" width="162" alt="Annette Black">
+              <h5 class="fw-medium fs-lg mb-1">ผศ.ดร.จุฑารัตน์ นกแก้ว</h5>
+              <p class="fs-sm mb-3">สมาคมห้องสมุดแห่งประเทศไทยฯ</p>
+              <span class="badge bg-primary rounded-pill mb-3">Session Chair RM.1</span>
+              
+            </div>
+          </div>
+
+          <!-- Item -->
+          <div class="swiper-slide py-3">
+            <div class="card card-body card-hover bg-light border-0 text-center mx-2">
+              <img src="assets/img/team/14.jpg" class="d-block rounded-circle mx-auto mb-3" width="162" alt="Marvin McKinney">
+              <h5 class="fw-medium fs-lg mb-1">ผศ.ดร.ก้องกิดากร บุญช่วย</h5>
+              <p class="fs-sm mb-3">คณะมนุษยศาสตร์และสังคมศาสตร์ มหาวิทยาลัยทักษิณ</p>
+              <span class="badge bg-primary rounded-pill mb-3">Session Chair RM.1</span>
+              
+            </div>
+          </div>
+
+          <!-- Item -->
+          <div class="swiper-slide py-3">
+            <div class="card card-body card-hover bg-light border-0 text-center mx-2">
+              <img src="assets/img/team/15.jpg" class="d-block rounded-circle mx-auto mb-3" width="162" alt="Esther Howard">
+              <h5 class="fw-medium fs-lg mb-1">ดร.ปัญญา จันทโคต</h5>
+              <p class="fs-sm mb-3">คณะอักษรศาสตร์ มหาวิทยาลัยศิลปากร</p>
+              <span class="badge bg-primary rounded-pill mb-3">Session Chair RM.1</span>
+              
+            </div>
+          </div>
+        </div>
+
+        <!-- Pagination (bullets) -->
+        <div class="swiper-pagination position-relative pt-3 mt-3"></div>
+      </div>
+    </section>
+
+<!-- Code Team (Slider) Social Media -->
+<!--
+    <div class="d-flex justify-content-center">
+      <a href="#" class="btn btn-icon btn-outline-secondary btn-facebook btn-sm me-2">
+        <i class="bx bxl-facebook"></i>
+      </a>
+      <a href="#" class="btn btn-icon btn-outline-secondary btn-dribbble btn-sm me-2">
+        <i class="bx bxl-dribbble"></i>
+      </a>
+      <a href="#" class="btn btn-icon btn-outline-secondary btn-behance btn-sm">
+        <i class="bx bxl-behance"></i>
+      </a>
+    </div>
+-->
+
+ 
+    <!-- Location -->
+    <section class="container py-5">
+      <div class="row mt-lg-3 pt-1 pt-md-4 pt-lg-5">
+        <div class="col-xl-3 col-md-4 text-center text-md-start">
+          <h3 class="h4">
+            <i class="bx bx-map fs-xl me-2 ms-n1"></i>
+            สถานที่จัดงาน</h3>
+          <h2 class="h1 mb-4">โรงแรมปรินซ์ พาเลซ มหานาค <br> กรุงเทพมหานคร</h2> 
+          <p>
+            <i class="bx bx-buildings fs-xl me-2 ms-n1"></i> 
+            ณ ห้องปรินซ์ บอลลูม 3 ชั้น 11 อาคาร 1
+          </p>
+          <div class="d-none d-md-block text-primary">
+            <svg xmlns="http://www.w3.org/2000/svg" width="118" height="118" fill="none">
+              <g clip-path="url(#A)">
+                <path
+                  d="M116.912 76.527c-4.963-3.081-9.413-6.675-13.52-10.782-1.37-1.369-3.766-.343-3.766 1.54 0 1.54-.171 3.081-.171 4.621-14.89 2.739-29.78 3.936-45.013 4.108-12.836.342-30.123 1.712-41.761-4.45-8.9-4.792-10.269-15.917-6.504-24.475 1.54-3.594 4.279-6.504 7.702-8.557 3.936-2.396 7.873-1.027 11.981-2.054.513-.171.685-.856.342-1.369-6.333-6.675-17.457 1.027-21.565 6.504-5.819 7.702-6.161 18.998-1.027 27.042 7.531 11.981 25.501 11.125 37.653 11.467 19.169.685 39.365.171 58.192-4.108 0 1.712.171 3.252.685 4.963 0 .342.171.513.342.685-1.369 1.198-.171 4.279 2.225 3.765 4.963-1.027 9.927-2.568 14.548-4.792 1.198-1.026.856-3.251-.343-4.107zm-13.178-4.45c2.396 2.054 4.792 4.108 7.531 5.99-2.396 1.027-4.964 1.712-7.531 2.396v-.685c-.514-2.567-.342-5.135 0-7.702z"
+                  fill="currentColor" />
+              </g>
+              <defs>
+                <clipPath id="A">
+                  <path fill="#fff" d="M0 0h118v118H0z" />
+                </clipPath>
+              </defs>
+            </svg>
+          </div>
+        </div>
+        <div class="col-xl-9 col-md-8">
+          <img src="assets/img/landing/conference/venue.jpg" class="rounded-3" width="952" alt="Venue">
+        </div>
+      </div>
+      <div class="row mb-lg-3 pb-1 pb-md-4 pb-lg-5 mt-4 mt-sm-n5">
+        <div class="col-lg-4 col-md-5 offset-md-6 offset-lg-7 mt-md-n5">
+          <div class="gallery mt-md-n4 mx-auto" style="max-width: 416px;">
+            <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3875.4110060423695!2d100.51248142490742!3d13.754070336638085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29939a126cb61%3A0xc03969aa5f27b82f!2z4LmC4Lij4LiH4LmB4Lij4Lih4Lib4Lij4Li04LiZ4LiL4LmMIOC4nuC4suC5gOC4peC4iyDguIHguKPguLjguIfguYDguJfguJ4!5e0!3m2!1sth!2sth!4v1729401556702!5m2!1sth!2sth"
+              data-iframe="true" class="gallery-item rounded-2"
+              data-sub-html='<h6 class="fs-sm text-light">โรงแรมปรินซ์ พาเลซ มหานาค กรุงเทพมหานคร</h6>'>
+              <img src="assets/img/landing/conference/map-light.jpg" class="d-dark-mode-none" alt="Map preview">
+              <img src="assets/img/landing/conference/map-dark.jpg" class="d-none d-dark-mode-block" alt="Map preview">
+              <div class="gallery-item-caption fs-sm fw-medium">โรงแรมปรินซ์ พาเลซ มหานาค กรุงเทพมหานคร</div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+   
+  </main>
+
+
+  <!-- Footer -->
+  <footer class="footer dark-mode bg-dark pt-5 pb-4 pb-lg-5">
+    <div class="container text-center pt-lg-3">
+      <div class="navbar-brand justify-content-center text-dark mb-2 mb-lg-4">
+        <img src="assets/img/logo.svg" class="me-2" width="60" alt="Silicon">
+        <span class="fs-4">TLA2024</span>
+      </div>
+      <ul class="nav justify-content-center pt-3 pb-4 pb-lg-5">
+        <li class="nav-item"><a href="#" class="nav-link" data-scroll
+          data-scroll-offset="70" >หน้าหลัก</a></li>
+        <li class="nav-item"><a href="#conferenceformat" class="nav-link" data-scroll
+          data-scroll-offset="70" >รูปแบบการประชุม</a></li>
+        <li class="nav-item"><a href="#conferencedetail" class="nav-link" data-scroll
+          data-scroll-offset="70">รายละเอียดการประชุม</a></li>
+        <li class="nav-item"><a href="#registrationfee" class="nav-link" data-scroll
+          data-scroll-offset="70">ค่าลงทะเบียน</a></li>
+        <li class="nav-item"><a href="#schedule" class="nav-link" data-scroll
+          data-scroll-offset="70">กำหนดการ</a></li>
+      </ul>
+      <div class="d-flex flex-column flex-sm-row justify-content-center">
+        <a href="#" class="btn btn-primary shadow-primary btn-lg me-sm-4 mb-3">
+          <i class="bx bx-calendar-check fs-xl me-2 ms-n1"></i>
+          Register</a>
+        <a href="#" class="btn btn-outline-light btn-lg mb-3">
+          <i class="bx bx-calendar-plus fs-xl me-2 ms-n1"></i>
+          Add to calendar
+        </a>
+      </div>
+      <div class="d-flex justify-content-center pt-4 mt-lg-3">
+        <a href="#" class="btn btn-icon btn-secondary btn-facebook mx-2">
+          <i class="bx bxl-facebook"></i>
+        </a>
+        <a href="#" class="btn btn-icon btn-secondary btn-instagram mx-2">
+          <i class="bx bxl-instagram"></i>
+        </a>
+        <a href="#" class="btn btn-icon btn-secondary btn-twitter mx-2">
+          <i class="bx bxl-twitter"></i>
+        </a>
+        <a href="#" class="btn btn-icon btn-secondary btn-youtube mx-2">
+          <i class="bx bxl-youtube"></i>
+        </a>
+      </div>
+      <p class="fs-sm text-center pt-5 mt-lg-4 mb-0">
+        <span class="text-light opacity-50">&copy; All rights reserved. Made by </span>
+        <a class="nav-link d-inline-block p-0" href="https://createx.studio/" target="_blank" rel="noopener">Createx
+          Studio</a>
+      </p>
+    </div>
+  </footer>
+
+
+  <!-- Back to top button -->
+  <a href="#top" class="btn-scroll-top" data-scroll>
+    <span class="btn-scroll-top-tooltip text-muted fs-sm me-2">Top</span>
+    <i class="btn-scroll-top-icon bx bx-chevron-up"></i>
+  </a>
+
+
+  <!-- Vendor Scripts -->
+  <script src="assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/lightgallery.js/dist/js/lightgallery.min.js"></script>
+  <script src="assets/vendor/lg-video.js/dist/lg-video.min.js"></script>
+
+  <!-- Main Theme Script -->
+  <script src="assets/js/theme.min.js"></script>
+</body>
+
+</html>
