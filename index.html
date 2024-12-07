@@ -164,6 +164,89 @@
       /* สีที่ 1 */
     }
 
+
+        /* สร้างปุ่มลิงก์ด้านขวา */
+        .vertical-sidebar {
+          position: fixed;
+          top: 50%; /* ให้อยู่ตรงกลางแนวตั้ง */
+          right: 0; /* ติดขอบขวาของหน้าจอ */
+          transform: translateY(-50%); /* จัดให้อยู่ตรงกลาง */
+          display: flex;
+          border-radius: 8px 0 0 8px; /* โค้งขอบด้านซ้าย */
+          box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
+          z-index: 9998; /* ทำให้ปุ่มอยู่หน้าสุด */
+        }
+    
+        /* สไตล์ของปุ่มลิงก์ */
+        .vertical-sidebar a {
+          display: block;
+         padding: 15px 0px;
+          background-color: #6366f1;
+          color: white;
+          text-decoration: none;
+          border-radius: 8px 0 0 8px; /* โค้งขอบด้านซ้าย */
+          font-size: 14px;
+          text-align: center;
+          width: 50px; /* กำหนดความกว้างปุ่ม */
+        }
+    
+        /* เอฟเฟกต์ Hover */
+        .vertical-sidebar a:hover {
+          background-color: #4044ee;
+        }
+    
+        /* ตัวอย่างข้อความลิงก์แบบหมุน */
+        .vertical-sidebar a span {
+          writing-mode: vertical-rl; /* ทำให้ข้อความแนวตั้ง */
+          transform: rotate(180deg); /* หมุนกลับด้านให้ถูกต้อง */
+        }
+        
+         /* ไอคอนในปุ่ม */
+        .vertical-sidebar a i {
+          font-size: 20px; /* ขนาดไอคอน */
+          margin-bottom: 5px; /* ระยะห่างระหว่างไอคอนกับข้อความ */
+          transform: rotate(90deg); /* หมุนกลับด้านให้ถูกต้อง */
+        }
+
+        @media (max-width: 1024px) {
+          .vertical-sidebar {
+            top: auto; /* ยกเลิกค่าตำแหน่งด้านบน */
+            bottom: 0; /* ปุ่มติดขอบด้านล่าง */
+            right: 0; /* ยังคงติดขอบขวา */
+            transform: none; /* ยกเลิกการแปลงตำแหน่ง */
+            flex-direction: row; /* เรียงปุ่มในแนวนอน */
+            justify-content: space-around; /* จัดปุ่มให้มีระยะห่างเท่ากัน */
+            width: 100%; /* ปุ่มยืดตามความกว้างหน้าจอ */
+            border-radius: 0; /* ยกเลิกขอบโค้ง */
+            box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2); /* เงาอยู่ด้านบน */
+          }
+        
+          .vertical-sidebar a {
+            border-radius: 0; /* ยกเลิกขอบโค้ง */
+            width: auto; /* ให้ปุ่มมีขนาดอัตโนมัติ */
+            flex: 1; /* ให้ปุ่มมีขนาดเท่ากัน */
+            padding: 10px 0; /* ลดระยะ padding */
+            font-size: 14px;
+          }
+        
+          .vertical-sidebar a span {
+            writing-mode: horizontal-tb; /* ข้อความแนวนอน */
+            transform: none; /* ยกเลิกการหมุน */
+          }
+        
+          .vertical-sidebar a i {
+            transform: none; /* ยกเลิกการหมุน */
+            margin-right: 8px;
+            font-size: 14px;
+          }
+
+          .btn-scroll-top {
+            z-index: 9999;
+            
+          }
+
+        }
+
   </style>
 
   <!-- Theme mode -->
@@ -1910,6 +1993,12 @@
     <span class="btn-scroll-top-tooltip text-muted fs-sm me-2">Top</span>
     <i class="btn-scroll-top-icon bx bx-chevron-up"></i>
   </a>
+
+
+  <!-- Sidebar-->
+<div class="vertical-sidebar">
+  <a href="https://forms.gle/AcQPrVnxdZFgbFyXA" target="_blank"><span><i class='bx bx-message-square-dots'></i>แบบประเมินความพึงพอใจ</span></a>
+</div>
 
 
   <!-- Vendor Scripts -->
